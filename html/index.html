@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" type="text/css" href="../style/style.css">
+</head>
+<body>
+  <div class="headerDiv">
+    <h1 class="header">Rock Paper Scissors</h1>
+  </div>
+  <div class="announcer">
+    <p id="announcement"></p>
+  </div>
+  <img src="../images/human.jpg" class="human">
+  <div class="scoreDiv">
+      <p id="scoreDisplay">0&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;0</p>
+  </div>
+  <img src="../images/computer.jpg" class="computer">
+  <span class="history">
+    <img src="../images/rock.png" id="hWeapon" style="visibility:hidden;">
+    <img src="../images/scissors.png" id="cWeapon" style="visibility:hidden;">
+  </span>
+  <div id="btnContainer">
+    <button id="btn1" name="rock"></button>
+    <button id="btn2" name="paper"></button>
+    <button id="btn3" name="scissors"></button>
+  </div>
+<script src="../scripts/rock-paper-scissors.js"></script>
+</body>
+</html>
