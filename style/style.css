@@ -1,0 +1,118 @@
+.header {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 49px;
+}
+
+.scoreDiv {
+    margin: auto;
+    text-align: center;
+    padding-top: 6%;
+    position: absolute;
+    width: 100%;
+}
+
+.announcer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-top: 2%;
+}
+
+.history {
+    text-align: center;
+    margin-left: 35%;
+    padding-top: 12%;
+    width: 30%;
+    position: absolute;
+}
+
+#cWeapon {
+    width: 50px;
+    height: 50px;
+    margin-left: 10%;
+    text-align: center;
+}
+
+#hWeapon {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+}
+
+#announcement {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.human {
+    position: absolute;
+    margin-left: 40%;
+    padding-top: 7.5%;
+    width: 65px;
+    height: 65px;
+}
+
+.computer {
+    position: absolute;
+    margin-left: 57%;
+    padding-top: 7.5%;
+    width: 72px;
+    height: 67px;
+}
+
+#scoreDisplay {
+    font-size: 40px;
+}
+
+.headerDiv {
+    padding-top: 2.5%;
+}
+
+#btn1 {
+    background-image: url(../images/rock.png);
+}
+
+#btn2 {
+    background-image: url(../images/paper.png);
+    margin-left: 38px;
+}
+
+#btn3 {
+    background-image: url(../images/scissors.png);
+    margin-left: 38px;
+}
+
+#btn1, #btn2, #btn3 {
+    background-repeat: no-repeat;
+    background-size: 150px;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border: 2px solid black;
+    box-shadow: 0 9px #444;
+    border-radius: 9px;
+    text-decoration: none;
+    outline: none;
+}
+
+#btn1:active, #btn2:active, #btn3:active {
+    box-shadow: 0 5px #333;
+    transform: translateY(4px);
+    text-decoration: none;
+}
+
+#btnContainer {
+    margin: auto;
+    padding-top: 20%;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+}
+
+body {
+    overflow: hidden;
+}
