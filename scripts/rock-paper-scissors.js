@@ -76,8 +76,8 @@ function rpsRound(playerSelection, computerSelection) {
         announcer.textContent = "";
         updateScore("win");
         determineWinner();
-        humanWeapon.src = `../images/${playerSelection}.png`;
-        computerWeapon.src = `../images/${computerSelection}.png`;
+        humanWeapon.src = `images/${playerSelection}.png`;
+        computerWeapon.src = `images/${computerSelection}.png`;
         humanWeapon.style.visibility = "visible";
         computerWeapon.style.visibility = "visible";
         
@@ -86,8 +86,8 @@ function rpsRound(playerSelection, computerSelection) {
         announcer.textContent = "";
         updateScore("win");
         determineWinner();
-        humanWeapon.src = `../images/${playerSelection}.png`;
-        computerWeapon.src = `../images/${computerSelection}.png`;
+        humanWeapon.src = `images/${playerSelection}.png`;
+        computerWeapon.src = `images/${computerSelection}.png`;
         humanWeapon.style.visibility = "visible";
         computerWeapon.style.visibility = "visible";
 
@@ -97,15 +97,15 @@ function rpsRound(playerSelection, computerSelection) {
         announcer.textContent = "";
         updateScore("win");
         determineWinner();
-        humanWeapon.src = `../images/${playerSelection}.png`;
-        computerWeapon.src = `../images/${computerSelection}.png`;
+        humanWeapon.src = `images/${playerSelection}.png`;
+        computerWeapon.src = `images/${computerSelection}.png`;
         humanWeapon.style.visibility = "visible";
         computerWeapon.style.visibility = "visible";
         
     } else if (playerSelection === computerSelection){
         
-        humanWeapon.src = `../images/${playerSelection}.png`;
-        computerWeapon.src = `../images/${computerSelection}.png`;
+        humanWeapon.src = `images/${playerSelection}.png`;
+        computerWeapon.src = `images/${computerSelection}.png`;
         humanWeapon.style.visibility = "visible";
         computerWeapon.style.visibility = "visible";
         announcer.textContent = "Draw!";
@@ -115,8 +115,8 @@ function rpsRound(playerSelection, computerSelection) {
         announcer.textContent = "";
         updateScore("loss");
         determineWinner();
-        humanWeapon.src = `../images/${playerSelection}.png`;
-        computerWeapon.src = `../images/${computerSelection}.png`;
+        humanWeapon.src = `images/${playerSelection}.png`;
+        computerWeapon.src = `images/${computerSelection}.png`;
         humanWeapon.style.visibility = "visible";
         computerWeapon.style.visibility = "visible";
     }
